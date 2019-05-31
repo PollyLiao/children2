@@ -80,7 +80,7 @@ $(function(){
   $('.wrapH100').waypoint(function() {
     $('.wrapH100').addClass('animated-slow fadeIn')
     $('.wrapH100 h2').addClass('delay-04s animated-slow fadeInUp');
-    $('.wrapH100 p').addClass('delay-05s animated-slow fadeInUp');
+    $('.wrapH100 p').addClass('delay-06s animated-slow fadeInUp');
     $('.wrap-scrolldownhoney').addClass('delay-10s animated-slow fadeIn');
     
 }, {
