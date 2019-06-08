@@ -3,6 +3,7 @@ $(function(){
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var cutH = $(window).height() / 2;
+    var cutH3 = $(window).height() / 10;
     var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
   
     if (scrollTop >= ($('.graphic2').offset().top - cutH)) {
@@ -25,7 +26,7 @@ $(function(){
       });
     }
 
-    if(scrollTop >= ($('.graphic4').offset().top - cutH)){
+    if(scrollTop >= ($('.graphic4').offset().top - cutH3)){
       // $('.graphic4').find('b.runNum').each(function(index, element) {
       //   var runNumber = $(this).attr('data-number');
       //   $(this).animateNumber({
