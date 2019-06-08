@@ -26,7 +26,7 @@ $(function(){
       });
     }
 
-    if(scrollTop >= ($('.graphic4').offset().top - cutH)){
+    if(scrollTop >= ($('.graphic4').offset().top - cutH3)){
       // $('.graphic4').find('b.runNum').each(function(index, element) {
       //   var runNumber = $(this).attr('data-number');
       //   $(this).animateNumber({
@@ -47,7 +47,7 @@ $(function(){
         (function(i){
           setTimeout(function(){
             $(iLength[i]).addClass('on')
-          },i*150)
+          },i*200)
         })(i)
 
       }
