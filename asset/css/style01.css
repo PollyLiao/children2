@@ -333,9 +333,7 @@ button {
   height: 350px;
   position: relative;
 }
-.graphic4{
-  display: none;
-}
+
 .graphic4 .block{
   background: url('./../img/teacher01.png') no-repeat top center;
   height: 700px;
